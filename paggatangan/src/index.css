@@ -12,3 +12,11 @@
 body {
   font-family: var(--font-sans);
 }
+
+h1, h2 {
+  font-family: var(--font-serif);
+}
+
+.hero-section {
+  background: linear-gradient(to right, #E8DDC9, #C6B4A0, #B8A693);
+}
