@@ -2,11 +2,20 @@
 
 @import "tailwindcss";
 
-@layer base {
-  :root {
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', sans-serif;
-  }
+@theme {
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+
+  --color-gold-400: #CAB073;
+  --color-gold-500: #B89A5C;
+
+  --color-beige-100: #E8DDC9;
+  --color-beige-200: #D9C9B0;
+  --color-beige-300: #C6B4A0;
+  --color-beige-400: #B8A693;
+  --color-beige-500: #A68B7A;
+  --color-beige-600: #806855;
+
 }
 
 body {
@@ -26,6 +35,6 @@ p {
   font-size: 1rem;
 }
 
-.hero-section {
-  background: linear-gradient(to right, #E8DDC9, #C6B4A0, #B8A693);
+.bg-gradient {
+  background: linear-gradient(to right, var(--color-beige-100), var(--color-beige-300), var(--color-beige-400));
 }
