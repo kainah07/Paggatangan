@@ -1,7 +1,7 @@
-import goldRibbon from '../assets/gold_ribbon.png';
-import storeImg from '../assets/store_img.png';
-import maleModel from '../assets/male_model.png';
-import femaleModel from '../assets/female_model.png';
+import goldRibbon from "../../../assets/gold_ribbon.png";
+import storeImg from "../../../assets/store_img.png";
+import maleModel from "../../../assets/male_model.png";
+import femaleModel from '../../../assets/female_model.png';
 
 function HeroSection() {
   return (
